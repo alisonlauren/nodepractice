@@ -4,6 +4,6 @@ const cowsay = require('cowsay');
 
 
 console.log(cowsay.say({
-    text: "Whats up, The Name is Perl"
+    text: "Whats up, The Name is Perl",
+    cow: cowsay.list[1]
 }));
-console.log("Hello World");
